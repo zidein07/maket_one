@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+
+}
+
+.container {
+  width: 980px;
+  margin: 20px auto;
+}
+
+
+/******* header *********/
+
+
+.header {
+  border: 1px solid #4e4e4e;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.header li {
+  list-style: none;
+  border-right: 1px solid #4e4e4e;
+  text-align: center;
+  line-height: 50px;
+  float: left;
+}
+
+.header li:nth-child(6) {
+  border-right: none;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 50px;
+  display: block;
+	padding: 0 40px;
+}
+
+.header li a:hover {
+  background: radial-gradient(#5cbeed ,#000);
+}
+
+/******* contant *******/
+
+.contant {
+  margin-top: 25px;
+  width: 980px;
+  padding: 10px 0;
+  border-top: 1px solid #4e4e4e;
+  border-bottom: 1px solid #4e4e4e;
+  height: 310px;
+}
+
+
+
+
+.contant .left img {
+  float: left;
+  width: 640px;
+  height: 285px;
+}
+
+.contant .right {
+  float: right;
+  width: 340px;
+  height: 285px;
+  background: url(../img/bkg_right.png);
+  padding: 10px 25px;
+}
+
+.contant .right ul li {
+  list-style: none;
+  border-bottom: 1px solid #636363;
+  margin-top: 15px;
+}
+
+.contant .right ul li span {
+  color: #7895b3;
+  font-size: 20px;
+  font-weight: bold
+}
+
+.contant .right a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.contant .right .input {
+  width: 120px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  background: linear-gradient(#aaa 1%,#000 45%);
+  border-radius: 5px;
+  margin-top: 45px;
+  border: 2px solid #909090;
+}
+
+.contant .right .input:nth-child(1) {
+  float: left;
+}
+
+.contant .right .input:nth-child(2) {
+  float: right;
+}
+
+.news h3 {
+	color: #a3c8d0;
+	text-align: center;
+	width: 300px;
+	height: 30px;
+	border-bottom: 1px solid #444;
+	margin: 10px auto;
+}
+
+.news p {
+	color: #fff;
+}
+.news:nth-child(1) {
+	margin-left: 0;
+}
+.news {
+	width: 315px;
+	border: 1px solid #4d4d4d;
+	height: 245px;
+	float: right;
+	margin-left: 15px;
+}
+
+.general {
+	margin-top: 20px;
+}
